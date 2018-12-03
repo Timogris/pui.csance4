@@ -10,6 +10,17 @@ namespace Puissance_4
     {
         public Puissance4() : base("Jeu")
         {
+        }
+
+        public void Demarrer()
+        {
+            var saisie;
+
+            do
+            {
+                Console.WriteLine("Commencer une nouvelle partie ? [y/n]");
+                saisie = Console.ReadLine();
+            }
 
         }
     }

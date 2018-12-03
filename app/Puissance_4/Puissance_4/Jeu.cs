@@ -8,7 +8,7 @@ namespace Puissance_4
 {
     public class Jeu
     {
-        //Attribus
+        //Attributs
         private string _nomJeu;
 
         //Accesseur
