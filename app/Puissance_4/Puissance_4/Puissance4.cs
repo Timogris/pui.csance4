@@ -14,14 +14,7 @@ namespace Puissance_4
 
         public void Demarrer()
         {
-            var saisie;
-
-            do
-            {
-                Console.WriteLine("Commencer une nouvelle partie ? [y/n]");
-                saisie = Console.ReadLine();
-            }
-
+            char saisie;
         }
     }
 }
