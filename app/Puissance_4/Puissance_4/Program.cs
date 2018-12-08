@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Puissance_4
 {
@@ -27,9 +23,7 @@ namespace Puissance_4
                 {
                     boucleSaisiePartie = true;
 
-                    Console.Write("\nJoueur ");
-                    Console.Write(joueur);
-                    Console.Write(": ");
+                    Console.WriteLine("Joueur " + joueur + ": ");
 
                     if (Int32.TryParse(Console.ReadLine(), out colonne))
                     {
@@ -89,7 +83,7 @@ namespace Puissance_4
     class MoteurJeu // On cree la classe du moteur de jeu
     {
         const int nbLignes = 6, nbColonnes = 7; // On donne le nombre de lignes et colonnes, ici 6*7
-        const char caseVide = '0', caseJoueur1 = '1', caseJoueur2 = '2'; // Les cases vides seront indiquees par un 0, celles jouees par le joueur 1, un 1, etc.
+        const char caseVide = ' ', caseJoueur1 = '1', caseJoueur2 = '2'; // Les cases vides seront indiquees par un 0, celles jouees par le joueur 1, un 1, etc.
 
         private char[,] grilleJeu; // On initialise le tableau a deux dimensions qu'est la grille de jeu
 
