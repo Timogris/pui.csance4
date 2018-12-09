@@ -14,7 +14,6 @@ namespace Puissance_4
             get => _nbLignes;
             set => _nbLignes = value;
         }
-
         public int NbColonnes
         {
             get => _nbColonnes;
@@ -168,6 +167,5 @@ namespace Puissance_4
 
             return false; // Si aucune des boucles ne retournent true
         }
-
     }
 }
